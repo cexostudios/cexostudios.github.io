@@ -3,18 +3,33 @@
     <head>
         <meta charset="utf-8">
         <title>Kontakt</title>
-
+        <link rel="stylesheet" href="Contactstyle.css">
     </head>
-    <body>
-        
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+            .hero{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+    </style>
+      <body>
+        <div class="hero">
 
         <form action="https://formsubmit.co/cexostudios@gmail.com" method="POST">
             <input type="hidden" name="_subject" value="New email">
-            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="email" name="email" placeholder="Email Address" required class="Email">
             <input type="text" name="message" placeholder="write your message here" required>
             <button type="submit">Send</button>
        </form>
 
-
+    </div>
     </body>
 </html>
