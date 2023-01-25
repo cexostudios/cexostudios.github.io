@@ -17,6 +17,7 @@ nav{
     align-items: center;
     padding: 20px 8%;
 }
+
 nav .logo{
     width: 160px;
     cursor: pointer;
@@ -38,7 +39,7 @@ nav ul li a{
 .text-container{
     max-width: 600px;
     margin-top: 7%;
-    margin-right: 40%;
+    margin-left: 50%;
 }
 .text-container h1{
     font-size: 80px;
@@ -54,6 +55,5 @@ nav ul li a{
     margin-top: 30px;
     border-radius: 30px;
 }
-
 
 
